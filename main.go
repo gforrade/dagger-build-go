@@ -8,13 +8,16 @@ import (
 	"dagger.io/dagger"
 )
 
-/*func main() {
-	if err := Build(context.Background()); err != nil {
-		fmt.Println(err)
+/*
+	func main() {
+		if err := Build(context.Background()); err != nil {
+			fmt.Println(err)
+		}
 	}
-}*/
+*/
+type GoDagger struct{}
 
-func Build(ctx context.Context) error {
+func (m *GoDagger) Build(ctx context.Context) error {
 	fmt.Println("Building with Dagger")
 
 	// initialize Dagger client

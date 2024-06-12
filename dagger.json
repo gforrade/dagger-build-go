@@ -1,5 +1,5 @@
 {
-  "name": "go-getting-started",
+  "name": "dagger-build-go",
   "sdk": "go",
   "engineVersion": "v0.11.6"
 }

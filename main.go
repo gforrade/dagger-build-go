@@ -8,11 +8,11 @@ import (
 	"dagger.io/dagger"
 )
 
-func main() {
+/*func main() {
 	if err := Build(context.Background()); err != nil {
 		fmt.Println(err)
 	}
-}
+}*/
 
 func Build(ctx context.Context) error {
 	fmt.Println("Building with Dagger")
